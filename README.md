@@ -6,4 +6,4 @@
 [![My Github Actions](https://github.com/ignatiy-f/frontend-project-lvl1/workflows/my-github-actions/badge.svg)](https://github.com/ignatiy-f/frontend-project-lvl1/actions/workflows/my-github-actions.yml)
 
 <p>brain-even</p>
-<script src="https://asciinema.org/a/TGPzAA3M4K2xl5apK4uhBszjQ.js" id="asciicast-14" async></script>
+<script src="https://asciinema.org/a/TGPzAA3M4K2xl5apK4uhBszjQ" id="asciicast-14" async></script>
