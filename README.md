@@ -6,3 +6,6 @@
 [![My Github Actions](https://github.com/ignatiy-f/frontend-project-lvl1/workflows/my-github-actions/badge.svg)](https://github.com/ignatiy-f/frontend-project-lvl1/actions/workflows/my-github-actions.yml)
 ## brain-even
 <a href="https://asciinema.org/a/TGPzAA3M4K2xl5apK4uhBszjQ" target="_blank"><img src="https://asciinema.org/a/TGPzAA3M4K2xl5apK4uhBszjQ.svg" /></a>
+
+## brain-calc
+<a href="https://asciinema.org/a/6EuhWApIb2k5ZLJHcbMMhKbte" target="_blank"><img src="https://asciinema.org/a/6EuhWApIb2k5ZLJHcbMMhKbte.svg" /></a>
