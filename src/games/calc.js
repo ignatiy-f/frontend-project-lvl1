@@ -28,6 +28,7 @@ const getInfo = () => {
   }
   return [value, String(correctAnswer)];
 };
+
 const gameCalc = () => {
   runGame(gameCondition, getInfo);
 };
