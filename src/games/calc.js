@@ -8,24 +8,24 @@ const getOperand = () => {
   return array[generateNumber(0, 2)];
 };
 
+const calculateResult = (operator, num1, num2) => {
+  switch (operator) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    default:
+      throw new Error('Unknown operator');
+  }
+};
 const getInfo = () => {
   const randomNum = [generateNumber(1, 20), generateNumber(1, 20)];
   const currentOper = getOperand();
   const value = `${randomNum[0]} ${currentOper} ${randomNum[1]}`;
-  let correctAnswer = 0;
+  const correctAnswer = calculateResult(currentOper, randomNum[0], randomNum[1]);
 
-  switch (currentOper) {
-    case '+':
-      correctAnswer = randomNum[0] + randomNum[1];
-      break;
-    case '-':
-      correctAnswer = randomNum[0] - randomNum[1];
-      break;
-    case '*':
-      correctAnswer = randomNum[0] * randomNum[1];
-      break;
-    default:
-  }
   return [value, String(correctAnswer)];
 };
 
