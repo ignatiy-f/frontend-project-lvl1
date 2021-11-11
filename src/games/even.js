@@ -7,6 +7,7 @@ const isEven = (num) => num % 2 === 0;
 const getInfo = () => {
   const value = generateNumber(1, 100);
   const correctAnswer = isEven(value) ? 'yes' : 'no';
+
   return [value, correctAnswer];
 };
 
