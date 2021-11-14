@@ -9,9 +9,8 @@ const runGame = (gameCondition, getInfo) => {
   console.log(gameCondition);
 
   for (let i = 0; i < rounds; i += 1) {
-    const info = getInfo();
-    const correctAnswer = info[1];
-    const answerOfUser = readlineSync.question(`Question: ${info[0]}\nYour answer: `);
+    const [value, correctAnswer] = getInfo();
+    const answerOfUser = readlineSync.question(`Question: ${value}\nYour answer: `);
 
     if (answerOfUser === correctAnswer) {
       console.log('Correct!');

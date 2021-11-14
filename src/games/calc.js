@@ -21,10 +21,11 @@ const calculateResult = (operator, num1, num2) => {
   }
 };
 const getInfo = () => {
-  const randomNum = [generateNumber(1, 20), generateNumber(1, 20)];
+  const leftNum = generateNumber(1, 20);
+  const rightNum = generateNumber(1, 20);
   const currentOper = getOperand();
-  const value = `${randomNum[0]} ${currentOper} ${randomNum[1]}`;
-  const correctAnswer = calculateResult(currentOper, randomNum[0], randomNum[1]);
+  const value = `${leftNum} ${currentOper} ${rightNum}`;
+  const correctAnswer = calculateResult(currentOper, leftNum, rightNum);
 
   return [value, String(correctAnswer)];
 };

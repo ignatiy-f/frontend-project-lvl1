@@ -6,9 +6,10 @@ const gameCondition = 'Find the greatest common divisor of given numbers.';
 const findGcd = (firNum, secNum) => (secNum === 0 ? firNum : findGcd(secNum, firNum % secNum));
 
 const getInfo = () => {
-  const randomNum = [generateNumber(1, 50), generateNumber(1, 50)];
-  const value = `${randomNum[0]} ${randomNum[1]}`;
-  const correctAnswer = findGcd(randomNum[0], randomNum[1]);
+  const leftNum = generateNumber(1, 50);
+  const rightNum = generateNumber(1, 50);
+  const value = `${leftNum} ${rightNum}`;
+  const correctAnswer = findGcd(leftNum, rightNum);
 
   return [value, String(correctAnswer)];
 };
