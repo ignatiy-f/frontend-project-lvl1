@@ -18,7 +18,7 @@ const isPrime = (num) => {
 };
 
 const getInfo = () => {
-  const value = generateNumber(1, 100);
+  const value = generateNumber(1, 99);
   const correctAnswer = isPrime(value) ? 'yes' : 'no';
 
   return [value, correctAnswer];
